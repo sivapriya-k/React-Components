@@ -1,0 +1,40 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    padding: 4px 0;
+}
+
+.accordion-item-button {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size:18px;
+    border: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.accordion-item:not(:first-child) {
+    border-top: 1px solid #eee;
+}
+
+.accordion-item-button:hover {
+    background-color: #eee;
+}
+
+.accordion-item-icon {
+    display: inline-block;
+    height: 8px;
+}
+
+.accordion-item-contents {
+    font-size: 16px;
+    padding: 6px;
+}

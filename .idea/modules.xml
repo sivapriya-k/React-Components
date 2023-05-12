@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/accordion.iml" filepath="$PROJECT_DIR$/.idea/accordion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../React-Components/.idea/React-Components.iml" filepath="$PROJECT_DIR$/../React-Components/.idea/React-Components.iml" />
     </modules>
   </component>
 </project>
