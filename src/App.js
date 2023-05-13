@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Accordion} from "./components/Accordion";
+import {Accordion} from "./components/Accordion/Accordion";
 
 const contents= [
   {
