@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import {Accordion} from "./components/Accordion/Accordion";
 import {Tabs} from "./components/Tabs/Tabs";
+import {Tree} from "./components/DirectoryTree/Tree";
 
 const contents= [
   {
@@ -42,11 +42,44 @@ const items = [
       },
     ];
 
+const folders = [
+    {
+        name: 'Folder1',
+        icon: '🎉',
+        children: [
+            {
+                name: 'Child1-1',
+            },
+            {
+                name: 'Child1-2',
+                children: [{
+                    name: 'grandchild1-1'
+                }]
+            }
+        ]
+    },
+    {
+        name: 'Folder2',
+        icon: '🎉',
+        children: [
+            {
+                name: 'Child2-1',
+            },
+            {
+                name: 'Child2-2',
+                children: [{
+                    name: 'grandchild2-1'
+                }]
+            }
+        ]
+    }
+]
 function App() {
   return (
     <div className="App">
         <Accordion contents={contents}/>
         <Tabs items={items} />
+        <Tree data={folders} isRoot={true} />
     </div>
   );
 }

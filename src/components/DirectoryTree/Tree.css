@@ -1,0 +1,8 @@
+.tree {
+    list-style-type: none;
+}
+
+.treeitem-title {
+    display: flex;
+    gap: 5px;
+}

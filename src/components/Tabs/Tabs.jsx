@@ -46,7 +46,7 @@ export const Tabs = ({ items }) => {
 
     return (
         <div className="tabs">
-            <div className="tabs-list">
+            <div className="tabs-list" role="tablist">
                 {items.map(({id, name}, index) => {
                     const isActive = index === activeIndex;
 
