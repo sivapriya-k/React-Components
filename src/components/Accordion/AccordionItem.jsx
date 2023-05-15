@@ -24,7 +24,7 @@ export const AccordionItem = ({ title, content }) => {
                 {title}
                 <span aria-hidden={true} className='accordion-icon'>{isOpen ? '-' : '+'}</span>
             </button>
-            <p className='accordion-item-contents' aria-labelledBy={headerId} id={panelId} hidden={!isOpen}>
+            <p className='accordion-item-contents' aria-labelledby={headerId} id={panelId} hidden={!isOpen}>
                 {content}
             </p>
         </div>
