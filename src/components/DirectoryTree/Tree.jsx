@@ -7,7 +7,7 @@ export const Tree = ({ data, isRoot}) => {
 
     return (
         <div>
-            <ul role={isRoot? 'tree' : 'group'} className={"tree"} key={treeId}>
+            <ul role={isRoot? 'tree' : 'group'} className={"tree"} id={treeId}>
                 {data.map(node => {
                     return (
                         <TreeNode data={node} />

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../React-Components/.idea/React-Components.iml" filepath="$PROJECT_DIR$/../React-Components/.idea/React-Components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/React-Components.iml" filepath="$PROJECT_DIR$/.idea/React-Components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JS-Utils/.idea/jj.iml" filepath="$PROJECT_DIR$/../JS-Utils/.idea/jj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-utils/.idea/js-utils.iml" filepath="$PROJECT_DIR$/../js-utils/.idea/js-utils.iml" />
     </modules>
   </component>
 </project>

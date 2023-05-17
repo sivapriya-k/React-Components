@@ -8,15 +8,15 @@ export const TreeNode = ({ data }) => {
     const treeNodeId = useId();
 
     return (
-        <li role="treeitem" key={treeNodeId} aria-label={name} aria-selected={childVisible}>
+        <li role="treeitem" id={treeNodeId} aria-label={name} aria-selected={childVisible} aria-expanded={childVisible}>
             <div className="treeitem-title" onClick={() => setChildVisible(!childVisible)}>
                 {hasChildren && (
-                    <span>{childVisible? '-': '+'}</span>
+                    <span aria-hidden={true}>{childVisible? '-': '+'}</span>
                 )
                 }
                 <div>
                     {hasChildren && <span>{icon}</span>}
-                    <span>{name}</span>
+                    <span aria-hidden={true}>{name}</span>
                 </div>
             </div>
 
